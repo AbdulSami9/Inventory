@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.gradient-custom-4 {
+	color: white;
+	background: #3248f2;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f6f8fa;
+}
+@media (min-width: 991.98px) {
+	main {
+		padding: 10px 50px 10px 140px;
+		text-align: center;
+	}
+}
+.fill-error {
+	font-size: 12px;
+	color: red;
+}
+
+/* Sidebar */
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10px 0 0; /* Height of navbar */
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+	width: 80px;
+	z-index: 1050;
+	background-color: #171215;
+}
+.top-pad {
+	margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+	.top-pad {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 991.98px) {
+	.sidebar {
+		width: 100%;
+	}
+}
+.sidebar .active {
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+	position: relative;
+	top: 0;
+	height: calc(100vh - 48px);
+	padding-top: 0.5rem;
+	overflow-x: hidden;
+	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.select-input {
+	border: 1px solid #ffffff;
+	color: #a0a7ae;
+	font-size: 12px;
+	padding: 2px;
+	border-radius: 9px;
+}
+.card {
+	border: 2px solid rgb(164 164 164 / 13%);
+}
+.select-form {
+	position: absolute;
+	right: 3px;
+	top: -12px;
+	z-index: 1;
+}
+.nav-heading {
+	margin-left: 110px !important;
+	font-weight: 600;
+	font-size: 26px;
+}
+.graph-div {
+	border-radius: 25px !important;
+	border: 1px solid white;
+	background-color: white;
+}
+.ag-chart {
+	width: 90%;
+	border-radius: 25px !important;
+	background-color: white;
+}
+.card-border-1 {
+	border-radius: 25px 0px 0px 0px;
+}
+.card-border-2 {
+	border-radius: 0px 25px 0px 0px;
+}
+.card-border-3 {
+	border-radius: 0px 0px 0px 25px;
+}
+.card-border-4 {
+	border-radius: 0px 0px 25px 0px;
+}
